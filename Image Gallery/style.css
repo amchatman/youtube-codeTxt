@@ -4,20 +4,26 @@
     box-sizing:border-box;
 }
 #container{
-    display:flex;
-    flex-wrap:wrap;
-    height:500px;
+    max-width:1000px;
+    margin:0 auto;
+    padding:20px;
     border:2px solid black;
+
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
 }
 .card{
-    display:flex;
-    justify-content:center;
-    border:2px solid black;
-    flex: 1 0 24rem;
+    flex: 1 0 200px;
+    margin: 10px;
 }
 .card-image{
-    width:300px;
+    display:block;
+    height:350px;
     background-size:cover;
+    border:2px solid black;
 }
 .card-image.card-1{
     background-image:url(images/volkan-vardar-EsMw381lunE-unsplash.jpg);
