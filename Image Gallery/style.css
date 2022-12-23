@@ -1,4 +1,17 @@
-img{
-    width:500px;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.card{
+    display:flex;
+    justify-content:center;
     height:500px;
+}
+.card-image{
+    width:300px;
+    background-size:cover;
+}
+.card-image.card-1{
+    background-image:url(images/volkan-vardar-EsMw381lunE-unsplash.jpg);
 }
