@@ -3,10 +3,16 @@
     padding:0;
     box-sizing:border-box;
 }
-.card{
+#container{
     display:flex;
     justify-content:center;
     height:500px;
+    border:2px solid black;
+}
+.card{
+    display:flex;
+    justify-content:center;
+    border:2px solid black;
 }
 .card-image{
     width:300px;
@@ -14,4 +20,19 @@
 }
 .card-image.card-1{
     background-image:url(images/volkan-vardar-EsMw381lunE-unsplash.jpg);
+}
+.card-image.card-2{
+    background-image:url(images/jeffrey-valenzuela-OL4j0kejZPk-unsplash.jpg);
+}
+.card-image.card-3{
+    background-image:url(images/julieta-julieta-bwwOu1GOXnk-unsplash.jpg);
+}
+.card-image.card-4{
+    background-image:url(images/patrick-burtchaell-8BU__0wzK58-unsplash.jpg);
+}
+.card-image.card-5{
+    background-image:url(images/sidney-pearce-rco9Z8raWFM-unsplash.jpg);
+}
+.card-image.card-6{
+    background-image:url(images/heron-rossato-h_rossato-jC-uELLpy1w-unsplash.jpg);
 }
