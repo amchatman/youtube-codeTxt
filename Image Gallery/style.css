@@ -17,11 +17,11 @@ h1,h2{
     margin-top:0.3125rem;
 }
 hr{
-    width: 300px;
+    width:18.75rem;
     margin:0.9375rem auto;
 }
 #container{
-    max-width:980px;
+    max-width:61.25rem;
     margin:1.25rem auto;
     /*border:2px solid #FFFFFF;*/
 }
